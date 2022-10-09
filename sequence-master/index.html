@@ -1,18 +1,184 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<link rel="stylesheet" href="css/style.css">
-	<script defer src="js/main.js"></script>
-</head>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+		<link rel="stylesheet" href="css/style.css">
+		<script defer src="js/main.js"></script>
+	</head>
 
-<body>
+	<body>
+		<h1 class="logo">
+			<a href="#"><img src="./img/logo.png" alt="sarar 로고" /></a>
+		</h1>
+
+		<ul class="sns">
+			<li><a href="">facebook</a></li>
+			<li><a href="">twitter</a></li>
+			<li><a href="">vimeo</a></li>
+		</ul>
+
+		<nav>
+			<article>
+				<!~~ 1dpth ~~>
+					<a href="#">COLLECTION</a>
+
+					<!~~ 2dpth ~~>
+						<div id="collection">
+							<p><img src="./img/thumb1.jpg" alt="collection" /></p>
+							<h2>COLLECTION</h2>
+							<ul>
+								<li><a href="#">menu item</a></li>
+								<li><a href="#">menu item</a></li>
+								<li><a href="#">menu item</a></li>
+								<li><a href="#">menu item</a></li>
+							</ul>
+						</div>
+			</article>
+			<article>
+				<a href="#">STORE LOCATION</a>
+
+				<div>
+					<p><img src="./img/thumb2.jpg" alt="collection" /></p>
+					<h2>STORE LOCATION</h2>
+					<ul>
+						<li><a href="#">menu item</a></li>
+						<li><a href="#">menu item</a></li>
+						<li><a href="#">menu item</a></li>
+						<li><a href="#">menu item</a></li>
+					</ul>
+				</div>
+			</article>
+			<article>
+				<a href="#">ADVERTISEMENT</a>
+				<div>
+					<p><img src="./img/thumb3.jpg" alt="collection" /></p>
+					<h2>ADVERTISEMENT</h2>
+					<ul>
+						<li><a href="#">menu item</a></li>
+						<li><a href="#">menu item</a></li>
+						<li><a href="#">menu item</a></li>
+						<li><a href="#">menu item</a></li>
+					</ul>
+				</div>
+			</article>
+			<article>
+				<a href="#">ONLINE STORE</a>
+				<div>
+					<p><img src="./img/thumb4.jpg" alt="collection" /></p>
+					<h2>ONLINE STORE</h2>
+					<ul>
+						<li><a href="#">menu item</a></li>
+						<li><a href="#">menu item</a></li>
+						<li><a href="#">menu item</a></li>
+						<li><a href="#">menu item</a></li>
+					</ul>
+				</div>
+			</article>
+			<article>
+				<a href="#">CONTACT</a>
+				<div>
+					<p><img src="./img/thumb5.jpg" alt="collection" /></p>
+					<h2>CONTACT</h2>
+					<ul>
+						<li><a href="#">menu item</a></li>
+						<li><a href="#">menu item</a></li>
+						<li><a href="#">menu item</a></li>
+						<li><a href="#">menu item</a></li>
+					</ul>
+				</div>
+			</article>
+			<article>
+				<a href="#">CORPORATE</a>
+				<div>
+					<p><img src="./img/thumb1.jpg" alt="collection" /></p>
+					<h2>CORPORATE</h2>
+					<ul>
+						<li><a href="#">menu item</a></li>
+						<li><a href="#">menu item</a></li>
+						<li><a href="#">menu item</a></li>
+						<li><a href="#">menu item</a></li>
+					</ul>
+				</div>
+			</article>
+		</nav>
+
+		<!-- <section></section> -->
+
+		<footer>
+			<ul>
+				<li><a href="">- TERMS</a></li>
+				<li><a href="">- POLICY</a></li>
+				<li><a href="">- FAMILY SITE</a></li>
+			</ul>
+
+			<adress>2022 DESIGNERS CODE LABORATORY &copy; ALL RIGHTS RESERVED.</adress>
+		</footer>
 
 
-</body>
+		<aside>
+			<p><span>0</span>%</p>
+			<progress value="0" max="100"></progress>
+		</aside>
+
+		<!-- 		<h1 class="logo"><a href="#"><img src="./img/logo.png" alt="sarar" /></a></h1>
+
+		<ul class="sns">
+			<li><a href="#" aria-label="facebook"><i class="fa-brands fa-facebook"></i></a></li>
+			<li><a href="#" aria-label="twitter"><i class="fa-brands fa-twitter"></i></a></li>
+			<li><a href="#" aria-label="github"><i class="fa-brands fa-github"></i></a></li>
+		</ul>
+
+		<nav>
+			<article aria-labelledby="collection-heading">
+				<h2 id="collection-heading" class="title"><button type="button" aria-controls="collection" aria-expanded="false">COLLECTION</button></h2>
+
+				<div id="collection">
+					<figure><img src="./img/thumb1.jpg" alt="collection" /></figure>
+					<span aria-hidden="true">COLLECTION</span>
+					<ul>
+						<li><a href="#">menu item</a></li>
+						<li><a href="#">menu item</a></li>
+						<li><a href="#">menu item</a></li>
+						<li><a href="#">menu item</a></li>
+					</ul>
+				</div>
+			</article>
+
+			<!~~ <article aria-labelledby="collection-heading">
+				<button type="button" aria-expanded="false" aria-controls="collection">COLLECTION
+					<span class="sr-only">메뉴</span>
+				</button>
+
+				<div id="collection">
+					<h2 id="collection-heading" class="title">COLLECTION</h2>
+					<figure><img src="./img/thumb1.jpg" alt="collection" /></figure>
+					<ul>
+						<li><a href="#">menu item</a></li>
+						<li><a href="#">menu item</a></li>
+						<li><a href="#">menu item</a></li>
+						<li><a href="#">menu item</a></li>
+					</ul>
+				</div>
+			</article> ~~>
+
+
+		<!~~ <section></section> ~~>
+
+		<footer>
+			<ul>
+				<li><a href="">- TERMS</a></li>
+				<li><a href="">- POLICY</a></li>
+				<li><a href="">- FAMILY SITE</a></li>
+			</ul>
+
+			<address>2022 DESIGNERS CODE LABORATORY &copy; ALL RIGHTS RESERVED.</address>
+		</footer> -->
+
+	</body>
 
 </html>
