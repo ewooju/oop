@@ -14,6 +14,14 @@ const imgNodes = document.querySelectorAll(`section img`);
 let count = 0;
 const imgLoadPercent = document.querySelector('aside');
 const progressElement = document.querySelector('progress');
+const delay = convertSpeed("aside");
+
+function convertSpeed(el) {
+  let item = document.querySelector(el);
+  let duration = getComputedStyle(item).transitionDuration;
+  return parseFloat(duration) * 1000
+}
+
 
 imgNodes.forEach((el, i) => {
   el.onload = () => {
@@ -27,13 +35,13 @@ imgNodes.forEach((el, i) => {
 
     setTimeout(() => {
       imgLoadPercent.remove();
-    }, 2000)
+    }, delay)
   }
 })
 
 window.addEventListener('mousemove', (e) => {
   let percent = e.pageX / document.documentElement.clientWidth;
-  let idx = Math.round(percent * 200);
+  let idx = Math.rou`nd(percent * 200);
 
   imgNodes.forEach(el => {
     el.style.display = 'none';

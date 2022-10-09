@@ -147,7 +147,7 @@ section {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    display: none;
+    // display: none; 
   }
 }
 
@@ -193,7 +193,7 @@ aside {
   font-size: 3vw;
   font-family: "orbitron";
   letter-spacing: 2px;
-  transition: 2s;
+  transition: 1.7s;
   display: flex;
   flex-flow: column nowrap;
 
@@ -205,10 +205,10 @@ aside {
 
 progress {
   // -webkit-appearance: none;
+
   height: 10px;
   width: 150px;
   margin-top: 20px;
-
 }
 
 

@@ -10,16 +10,16 @@
   </style>
 </head>
 <body>
+  <button type="button" class="button1">button1</button>
+  <button type="button" class="button2">button2</button>
+  <button type="button" class="button3">button3</button>
   
   <script>
-    let b = "c";
-    const person = {
-      name: "ljy",
-      b: 20,
-      c: 30,
-    }
-
-    console.log(person.b);
+    const button1 = document.querySelector('.button1');
+    button1.addEventListener('click', e => {
+      console.log(e.currentTarget);
+      console.log(e);
+    })
   </script>
 </body>
-</html> 
+</html>
